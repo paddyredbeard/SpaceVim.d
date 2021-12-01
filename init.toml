@@ -48,7 +48,6 @@ git_plugin = 'git'
 
 [[layers]]
 name = 'github'
-git_plugin = 'git'
 
 [[layers]]
 name = 'VersionControl'
