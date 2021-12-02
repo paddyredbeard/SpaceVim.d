@@ -24,6 +24,7 @@
     # install nerd fonts
 #    guifont = "SourceCodePro Nerd Font Mono:h13"
     statusline_separator = "arrow"
+    statusline_iseparator = "arrow"
     statusline_inactive_separator = "arrow"
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
