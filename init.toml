@@ -37,6 +37,9 @@ auto_completion_return_key_behavior = "complete"
 auto_completion_tab_key_behavior = "smart"
 
 [[layers]]
+name = 'colorscheme'
+
+[[layers]]
 name = 'shell'
 default_position = 'top'
 default_height = 30
@@ -73,3 +76,6 @@ merged = false
 repo = "tpope/vim-vividchalk"
 merged = false
 
+[[custom_plugins]]
+repo = "nanotech/jellybeans.vim"
+merged = false
