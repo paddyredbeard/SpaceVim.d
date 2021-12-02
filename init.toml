@@ -8,6 +8,7 @@
 
 # All SpaceVim option below [option] section
 [options]
+#    automatic_update = true
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
@@ -16,9 +17,12 @@
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
     enable_guicolors = true
+#    enable_tabline_ft_icon = true
+#    enable_filetree_filetypeicon = true
     filetree_direction = "left"
     # Disable statusline separator, if you want to use other value, please
     # install nerd fonts
+#    guifont = "SourceCodePro Nerd Font Mono:h13"
     statusline_separator = "arrow"
     statusline_inactive_separator = "arrow"
     buffer_index_type = 4
@@ -54,3 +58,17 @@ name = 'VersionControl'
 
 [[custom_plugins]]
 repo = "cespare/vim-toml"
+merged = false
+
+[[custom_plugins]]
+repo = "junegunn/vim-github-dashboard"
+merged = false
+
+[[custom_plugins]]
+repo = "sjl/badwolf"
+merged = false
+
+[[custom_plugins]]
+repo = "tpope/vim-vividchalk"
+merged = false
+
