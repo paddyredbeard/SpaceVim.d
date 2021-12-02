@@ -76,6 +76,3 @@ merged = false
 repo = "tpope/vim-vividchalk"
 merged = false
 
-[[custom_plugins]]
-repo = "nanotech/jellybeans.vim"
-merged = false
