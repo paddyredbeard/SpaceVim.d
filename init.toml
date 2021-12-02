@@ -40,11 +40,6 @@ auto_completion_tab_key_behavior = "smart"
 name = 'colorscheme'
 
 [[layers]]
-name = 'shell'
-default_position = 'top'
-default_height = 30
-
-[[layers]]
 name = 'core'
 filetree_show_hidden = true
 enable_vimfiler_gitstatus = true
@@ -56,6 +51,20 @@ git_plugin = 'git'
 
 [[layers]]
 name = 'github'
+
+[[layers]]
+name = 'lang#html'
+
+[[layers]]
+name = 'lang#javascript'
+
+[[layers]]
+name = 'lang#php'
+
+[[layers]]
+name = 'shell'
+default_position = 'top'
+default_height = 30
 
 [[layers]]
 name = 'VersionControl'
