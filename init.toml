@@ -74,6 +74,10 @@ repo = "cespare/vim-toml"
 merged = false
 
 [[custom_plugins]]
+repo = "editorconfig/editorconfig-vim"
+merged = false
+
+[[custom_plugins]]
 repo = "junegunn/vim-github-dashboard"
 merged = false
 
