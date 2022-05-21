@@ -9,13 +9,13 @@
 # All SpaceVim option below [option] section
 [options]
     buffer_index_type = 4
-    colorscheme = "gruvbox"
+    colorscheme = "molokai"
     colorscheme_bg = "dark"
     enable_guicolors = true
     enable_statusline_mode = false
     enable_tabline_filetype_icon = true
     filetree_direction = "left"
-    #guifont = "SourceCodePro Nerd Font Mono:h13"
+    guifont = "SourceCodePro Nerd Font Mono:h13"
     project_rooter_outermost = false
     relativenumber = false
     statusline_separator = "arrow"
@@ -71,6 +71,10 @@ merged = false
 
 [[custom_plugins]]
 repo = "junegunn/vim-github-dashboard"
+merged = false
+
+[[custom_plugins]]
+repo = "nanotech/jellybeans.vim"
 merged = false
 
 [[custom_plugins]]

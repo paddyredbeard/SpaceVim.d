@@ -6,3 +6,5 @@ Custom [SpaceVim](https://spacevim.org/) configuration:
 - Display git status in filetree
 - Move NerdTree filetree to left
 - Enable toml syntax highlighting
+
+![spacevim screenshot](screenshot.png)
