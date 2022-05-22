@@ -1,10 +1,10 @@
-#=============================================================================
-# dark_powered.toml --- dark powered configuration example for SpaceVim
-# Copyright (c) 2016-2017 Wang Shidong & Contributors
-# Author: Wang Shidong < wsdjeg at 163.com >
-# URL: https://spacevim.org
-# License: GPLv3
-#=============================================================================
+#=========================================================
+# title: pddyrdbrd spacevim.d customization
+# filename: init.toml
+# author: Paddy Redbeard <paddyredbeard at protonmail.com>
+# license: GPLv3
+# adapted_from: dark_powered.toml by Wang Shidong
+#=========================================================
 
 # All SpaceVim option below [option] section
 [options]
