@@ -10,7 +10,7 @@
 # All SpaceVim option below [option] section
 [options]
     buffer_index_type = 4
-    colorscheme = "molokai"
+    colorscheme = "dracula"
     colorscheme_bg = "dark"
     enable_guicolors = true
     enable_statusline_mode = false
@@ -64,6 +64,10 @@ name = 'VersionControl'
 
 [[custom_plugins]]
 repo = "cespare/vim-toml"
+merged = false
+
+[[custom_plugins]]
+repo = "dracula/vim"
 merged = false
 
 [[custom_plugins]]
