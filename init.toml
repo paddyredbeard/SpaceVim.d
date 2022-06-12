@@ -55,6 +55,15 @@ name = 'lang#javascript'
 name = 'lang#php'
 
 [[layers]]
+name = 'lang#python'
+
+[[layers]]
+name = 'lang#ruby'
+
+[[layers]]
+name = 'lang#rust'
+
+[[layers]]
 name = 'shell'
 default_position = 'bottom'
 default_height = 30
