@@ -88,6 +88,10 @@ repo = "junegunn/vim-github-dashboard"
 merged = false
 
 [[custom_plugins]]
+repo = "lumiliet/vim-twig"
+merged = false
+
+[[custom_plugins]]
 repo = "nanotech/jellybeans.vim"
 merged = false
 
