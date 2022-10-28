@@ -10,7 +10,7 @@
 # All SpaceVim option below [option] section
 [options]
     buffer_index_type = 4
-    colorscheme = "molokai"
+    colorscheme = "jellybeans"
     colorscheme_bg = "dark"
     enable_guicolors = true
     enable_statusline_mode = false
@@ -97,5 +97,9 @@ merged = false
 
 [[custom_plugins]]
 repo = "tpope/vim-vividchalk"
+merged = false
+
+[[custom_plugins]]
+repo = "vimwiki/vimwiki"
 merged = false
 
