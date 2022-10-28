@@ -8,6 +8,7 @@ Adapted from [dark_powered.toml](https://github.com/SpaceVim/SpaceVim/blob/maste
 - Displays git status in filetree
 - Moves NerdTree filetree to left
 - Enables toml syntax highlighting
+- Installs and enables [vimwiki](https://vimwiki.github.io/)
 - Default theme: [molokai](https://github.com/tomasr/molokai)
 - Additional themes:
   - [badwolf](https://github.com/sjl/badwolf)
