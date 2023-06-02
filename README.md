@@ -14,6 +14,11 @@ Adapted from [dark_powered.toml](https://github.com/SpaceVim/SpaceVim/blob/maste
   - [badwolf](https://github.com/sjl/badwolf)
   - [dracula](https://github.com/dracula/vim)
   - [jellybeans](https://github.com/nanotech/jellybeans.vim)
-  - [vividchalk](https://github.com/tpope/vim-vividchalk)
 
 ![spacevim screenshot](screenshot.png)
+
+## History
+
+**01 Jun 2023**  
+Updated for compatibility with SpaceVim 2.x and nvim 0.9.1
+
