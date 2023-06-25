@@ -9,19 +9,28 @@
 
 # All SpaceVim option below [option] section
 [options]
+    bootstrap_after = 'myspacevim#after'
+    bootstrap_before = 'myspacevim#before'
     buffer_index_type = 4
-    colorscheme = "molokai"
+    # set spacevim theme. by default colorscheme layer is not loaded,
+    # if you want to use more colorscheme, please load the colorscheme
+    # layer
+    colorscheme = "jellybeans"
     colorscheme_bg = "dark"
+    # Disable guicolors in basic mode, many terminal do not support 24bit
+    # true colors
     enable_guicolors = true
     enable_statusline_mode = false
-    enable_tabline_filetype_icon = true
+    enable_tabline_ft_icon = true
+    # Disable statusline separator, if you want to use other value, please
+    # install nerd fonts
+    filemanager = "nerdtree"
     filetree_direction = "left"
     guifont = "SourceCodePro Nerd Font Mono:h13"
     project_rooter_outermost = false
     relativenumber = false
     statusline_separator = "arrow"
     statusline_iseparator = "arrow"
-    statusline_inactive_separator = "arrow"
 
 # Enable autocomplete layer
 [[layers]]
@@ -30,49 +39,54 @@ auto_completion_return_key_behavior = "complete"
 auto_completion_tab_key_behavior = "smart"
 
 [[layers]]
-name = 'colorscheme'
-
-[[layers]]
-name = 'core'
+name = "core"
 filetree_show_hidden = true
 enable_vimfiler_gitstatus = true
 enable_filetree_gitstatus = true
 
 [[layers]]
-name = 'git'
-git_plugin = 'git'
+name = "colorscheme"
 
 [[layers]]
-name = 'github'
+name = "git"
 
 [[layers]]
-name = 'lang#html'
+name = "lang#dockerfile"
 
 [[layers]]
-name = 'lang#javascript'
+name = "lang#html"
 
 [[layers]]
-name = 'lang#php'
+name = "lang#javascript"
 
 [[layers]]
-name = 'lang#python'
+name = "lang#json"
 
 [[layers]]
-name = 'lang#ruby'
+name = "lang#markdown"
 
 [[layers]]
-name = 'lang#rust'
+name = "lang#php"
+
+[[layers]]
+name = "lang#python"
+
+[[layers]]
+name = "lang#sh"
+
+[[layers]]
+name = "lang#toml"
 
 [[layers]]
 name = 'shell'
-default_position = 'bottom'
+default_position = 'top'
 default_height = 30
 
 [[layers]]
-name = 'VersionControl'
+name = "VersionControl"
 
 [[custom_plugins]]
-repo = "cespare/vim-toml"
+repo = "dense-analysis/ale"
 merged = false
 
 [[custom_plugins]]
@@ -84,7 +98,7 @@ repo = "editorconfig/editorconfig-vim"
 merged = false
 
 [[custom_plugins]]
-repo = "junegunn/vim-github-dashboard"
+repo = "jamessan/vim-gnupg"
 merged = false
 
 [[custom_plugins]]
@@ -97,9 +111,5 @@ merged = false
 
 [[custom_plugins]]
 repo = "sjl/badwolf"
-merged = false
-
-[[custom_plugins]]
-repo = "tpope/vim-vividchalk"
 merged = false
 
