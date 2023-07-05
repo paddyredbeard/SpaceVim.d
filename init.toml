@@ -110,6 +110,10 @@ repo = "nanotech/jellybeans.vim"
 merged = false
 
 [[custom_plugins]]
+repo = "ribru17/bamboo.nvim"
+merged = false
+
+[[custom_plugins]]
 repo = "sjl/badwolf"
 merged = false
 
