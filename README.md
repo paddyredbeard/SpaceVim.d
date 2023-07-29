@@ -10,7 +10,7 @@ Adapted from [dark_powered.toml](https://github.com/SpaceVim/SpaceVim/blob/maste
 - Moves NerdTree [filetree](https://spacevim.org/documentation/#file-tree) to left
 - Moves [shell](https://spacevim.org/layers/shell/) interface to bottom
 
-## 3rd-Party utilities
+## 3rd-Party Utilities
 
 - [ALE](https://github.com/dense-analysis/ale) linting engine
 - [editorconfig](https://editorconfig.org/) for Vim
@@ -28,8 +28,12 @@ Adapted from [dark_powered.toml](https://github.com/SpaceVim/SpaceVim/blob/maste
 - sh
 - toml
 
-Default theme: [spaceduck](https://github.com/pineapplegiant/spaceduck)  
-Additional themes:
+## Themes/Colorschemes
+
+Default: [spaceduck](https://github.com/pineapplegiant/spaceduck)  
+
+Others:
+
 - [badwolf](https://github.com/sjl/badwolf)
 - [bamboo](https://github.com/ribru17/bamboo.nvim)
 - [dracula](https://github.com/dracula/vim)
