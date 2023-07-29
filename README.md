@@ -16,7 +16,7 @@ Adapted from [dark_powered.toml](https://github.com/SpaceVim/SpaceVim/blob/maste
 - [editorconfig](https://editorconfig.org/) for Vim
 - [vim-gnupg](https://github.com/jamessan/vim-gnupg)
 
-## Languate/Syntax Highlighting Support
+## Language/Syntax Highlighting Support
 
 - dockerfile
 - html
