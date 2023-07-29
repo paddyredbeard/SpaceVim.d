@@ -3,17 +3,37 @@
 Custom [SpaceVim](https://spacevim.org/) configuration.
 Adapted from [dark_powered.toml](https://github.com/SpaceVim/SpaceVim/blob/master/mode/dark_powered.toml) by Wang Shidong
 
-- Enables [editorconfig](https://editorconfig.org/) for Vim
+## Customizations
+
 - Enables git & github integration
 - Displays git status in filetree
-- Moves NerdTree filetree to left
-- Enables toml syntax highlighting
-- Installs and enables [vimwiki](https://vimwiki.github.io/)
-- Default theme: [molokai](https://github.com/tomasr/molokai)
-- Additional themes:
-  - [badwolf](https://github.com/sjl/badwolf)
-  - [dracula](https://github.com/dracula/vim)
-  - [jellybeans](https://github.com/nanotech/jellybeans.vim)
+- Moves NerdTree [filetree](https://spacevim.org/documentation/#file-tree) to left
+- Moves [shell](https://spacevim.org/layers/shell/) interface to bottom
+
+## 3rd-Party utilities
+
+- [ALE](https://github.com/dense-analysis/ale) linting engine
+- [editorconfig](https://editorconfig.org/) for Vim
+- [vim-gnupg](https://github.com/jamessan/vim-gnupg)
+
+## Languate/Syntax Highlighting Support
+
+- dockerfile
+- html
+- javascript
+- json
+- markdown
+- php
+- python
+- sh
+- toml
+
+Default theme: [spaceduck](https://github.com/pineapplegiant/spaceduck)  
+Additional themes:
+- [badwolf](https://github.com/sjl/badwolf)
+- [bamboo](https://github.com/ribru17/bamboo.nvim)
+- [dracula](https://github.com/dracula/vim)
+- [jellybeans](https://github.com/nanotech/jellybeans.vim)
 
 ![spacevim screenshot](screenshot.png)
 
@@ -21,4 +41,14 @@ Adapted from [dark_powered.toml](https://github.com/SpaceVim/SpaceVim/blob/maste
 
 **01 Jun 2023**  
 Updated for compatibility with SpaceVim 2.x and nvim 0.9.1
+
+**25 Jun 2023**  
+Added [vim-gnupg](https://github.com/jamessan/vim-gnupg)
+
+**22 Jul 2023**  
+Switch default theme to [spaceduck](https://github.com/pineapplegiant/spaceduck)  
+Experimental transparent bg (not activated by default)
+
+**29 Jul 2023**  
+Update README and organize init.toml
 
